@@ -1,0 +1,25 @@
+# IDE
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Training artifacts (heavy)
+runs/**/best.pt
+runs/**/final.pt
+runs/**/ckpt_*.pt
+runs/**/*.dat
+
+# Keep log.json files (lightweight results)
+!runs/**/log.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Memory bank files
+*.dat
+*.npy
