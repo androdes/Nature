@@ -1,0 +1,4 @@
+torch>=2.0
+tokenizers>=0.13
+numpy
+faiss-cpu

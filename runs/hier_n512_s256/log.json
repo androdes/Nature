@@ -1,0 +1,359 @@
+{
+  "config": {
+    "batch_size": 32,
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_steps": 200,
+    "max_steps": 5000,
+    "val_every": 250,
+    "log_every": 50,
+    "save_every": 5000,
+    "seed": 42,
+    "device": "cuda",
+    "run_dir": "D:/Nature/runs",
+    "grad_clip": 1.0
+  },
+  "run_name": "hier_n512_s256",
+  "steps": [
+    {
+      "step": 250,
+      "train_loss": 5.09660530090332,
+      "val_loss": 5.385023683309555,
+      "lr": 0.00029991968812145484,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 544704,
+        "ram_hit_rate": 0.9885589237457408,
+        "disk_hit_rate": 0.011441076254259193,
+        "avg_retrieval_ms": 4.094188374684269,
+        "unique_accessed": 487,
+        "coverage": 0.951171875
+      }
+    },
+    {
+      "step": 500,
+      "train_loss": 3.781540870666504,
+      "val_loss": 5.163622006773949,
+      "lr": 0.00029711779206048454,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 1088192,
+        "ram_hit_rate": 0.9551044301005704,
+        "disk_hit_rate": 0.04489556989942951,
+        "avg_retrieval_ms": 4.2630017251896675,
+        "unique_accessed": 505,
+        "coverage": 0.986328125
+      }
+    },
+    {
+      "step": 750,
+      "train_loss": 3.2221875190734863,
+      "val_loss": 5.0512522011995316,
+      "lr": 0.00029038588901359884,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 1631680,
+        "ram_hit_rate": 0.9436488772308296,
+        "disk_hit_rate": 0.056351122769170425,
+        "avg_retrieval_ms": 4.271566120902996,
+        "unique_accessed": 507,
+        "coverage": 0.990234375
+      }
+    },
+    {
+      "step": 1000,
+      "train_loss": 3.028702974319458,
+      "val_loss": 4.882788076996803,
+      "lr": 0.0002799038105676658,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 2175168,
+        "ram_hit_rate": 0.9401264637949804,
+        "disk_hit_rate": 0.05987353620501957,
+        "avg_retrieval_ms": 4.219569209823034,
+        "unique_accessed": 508,
+        "coverage": 0.9921875
+      }
+    },
+    {
+      "step": 1250,
+      "train_loss": 2.871722936630249,
+      "val_loss": 4.793329477310181,
+      "lr": 0.0002659515680044105,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 2718656,
+        "ram_hit_rate": 0.9371159867228513,
+        "disk_hit_rate": 0.06288401327714871,
+        "avg_retrieval_ms": 4.2042615718411325,
+        "unique_accessed": 509,
+        "coverage": 0.994140625
+      }
+    },
+    {
+      "step": 1500,
+      "train_loss": 2.9779045581817627,
+      "val_loss": 4.775823086500168,
+      "lr": 0.0002489018722650103,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 3263360,
+        "ram_hit_rate": 0.9334164787213179,
+        "disk_hit_rate": 0.0665835212786821,
+        "avg_retrieval_ms": 4.197780799148674,
+        "unique_accessed": 509,
+        "coverage": 0.994140625
+      }
+    },
+    {
+      "step": 1750,
+      "train_loss": 3.023622751235962,
+      "val_loss": 4.668637245893478,
+      "lr": 0.0002292101775975552,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 3806848,
+        "ram_hit_rate": 0.9304695117850779,
+        "disk_hit_rate": 0.06953048821492216,
+        "avg_retrieval_ms": 4.201214884584879,
+        "unique_accessed": 509,
+        "coverage": 0.994140625
+      }
+    },
+    {
+      "step": 2000,
+      "train_loss": 2.361520290374756,
+      "val_loss": 4.730955123901367,
+      "lr": 0.00020740251485476345,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 4350336,
+        "ram_hit_rate": 0.9277336279312678,
+        "disk_hit_rate": 0.07226637206873217,
+        "avg_retrieval_ms": 4.2075634674918385,
+        "unique_accessed": 509,
+        "coverage": 0.994140625
+      }
+    },
+    {
+      "step": 2250,
+      "train_loss": 2.2647645473480225,
+      "val_loss": 4.723645731806755,
+      "lr": 0.00018406143945515598,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 4893824,
+        "ram_hit_rate": 0.9248254534695158,
+        "disk_hit_rate": 0.07517454653048414,
+        "avg_retrieval_ms": 4.218573359120559,
+        "unique_accessed": 509,
+        "coverage": 0.994140625
+      }
+    },
+    {
+      "step": 2500,
+      "train_loss": 3.30672025680542,
+      "val_loss": 4.704083576798439,
+      "lr": 0.00015981046938452146,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 5437312,
+        "ram_hit_rate": 0.9222702320558394,
+        "disk_hit_rate": 0.07772976794416064,
+        "avg_retrieval_ms": 4.249910573314007,
+        "unique_accessed": 510,
+        "coverage": 0.99609375
+      }
+    },
+    {
+      "step": 2750,
+      "train_loss": 2.613008975982666,
+      "val_loss": 4.62744052708149,
+      "lr": 0.0001352974289505659,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 5980800,
+        "ram_hit_rate": 0.919621956928839,
+        "disk_hit_rate": 0.08037804307116105,
+        "avg_retrieval_ms": 4.3081952053964425,
+        "unique_accessed": 510,
+        "coverage": 0.99609375
+      }
+    },
+    {
+      "step": 3000,
+      "train_loss": 1.8887395858764648,
+      "val_loss": 4.7281494140625,
+      "lr": 0.00011117714323462186,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 6525504,
+        "ram_hit_rate": 0.9172983420131227,
+        "disk_hit_rate": 0.08270165798687734,
+        "avg_retrieval_ms": 4.3307476324545116,
+        "unique_accessed": 511,
+        "coverage": 0.998046875
+      }
+    },
+    {
+      "step": 3250,
+      "train_loss": 2.5156118869781494,
+      "val_loss": 4.726812049746513,
+      "lr": 8.809394552934079e-05,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 7068992,
+        "ram_hit_rate": 0.9152700979149503,
+        "disk_hit_rate": 0.08472990208504975,
+        "avg_retrieval_ms": 4.339980761945558,
+        "unique_accessed": 511,
+        "coverage": 0.998046875
+      }
+    },
+    {
+      "step": 3500,
+      "train_loss": 2.357175827026367,
+      "val_loss": 4.7015427350997925,
+      "lr": 6.66644650470597e-05,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 7612480,
+        "ram_hit_rate": 0.9134694606751019,
+        "disk_hit_rate": 0.08653053932489806,
+        "avg_retrieval_ms": 4.562722945187709,
+        "unique_accessed": 511,
+        "coverage": 0.998046875
+      }
+    },
+    {
+      "step": 3750,
+      "train_loss": 2.3327980041503906,
+      "val_loss": 4.699867069721222,
+      "lr": 4.7461154696569294e-05,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 8155968,
+        "ram_hit_rate": 0.9117468337296075,
+        "disk_hit_rate": 0.08825316627039242,
+        "avg_retrieval_ms": 4.551509866738379,
+        "unique_accessed": 511,
+        "coverage": 0.998046875
+      }
+    },
+    {
+      "step": 4000,
+      "train_loss": 2.1414098739624023,
+      "val_loss": 4.762688919901848,
+      "lr": 3.099699895631474e-05,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 8699456,
+        "ram_hit_rate": 0.9101720843234336,
+        "disk_hit_rate": 0.08982791567656644,
+        "avg_retrieval_ms": 4.5400223785773255,
+        "unique_accessed": 511,
+        "coverage": 0.998046875
+      }
+    },
+    {
+      "step": 4250,
+      "train_loss": 2.376145839691162,
+      "val_loss": 4.735516041517258,
+      "lr": 2.9999999999999997e-05,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 9244160,
+        "ram_hit_rate": 0.9087721328925505,
+        "disk_hit_rate": 0.09122786710744946,
+        "avg_retrieval_ms": 4.5334348526743335,
+        "unique_accessed": 511,
+        "coverage": 0.998046875
+      }
+    },
+    {
+      "step": 4500,
+      "train_loss": 2.159228563308716,
+      "val_loss": 4.745546504855156,
+      "lr": 2.9999999999999997e-05,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 9787648,
+        "ram_hit_rate": 0.9075952670140978,
+        "disk_hit_rate": 0.09240473298590222,
+        "avg_retrieval_ms": 4.536155969178368,
+        "unique_accessed": 511,
+        "coverage": 0.998046875
+      }
+    },
+    {
+      "step": 4750,
+      "train_loss": 2.3609352111816406,
+      "val_loss": 4.780264899134636,
+      "lr": 2.9999999999999997e-05,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 10331136,
+        "ram_hit_rate": 0.9064625613291704,
+        "disk_hit_rate": 0.09353743867082961,
+        "avg_retrieval_ms": 4.536016212889079,
+        "unique_accessed": 511,
+        "coverage": 0.998046875
+      }
+    },
+    {
+      "step": 5000,
+      "train_loss": 2.671534299850464,
+      "val_loss": 4.762399211525917,
+      "lr": 2.9999999999999997e-05,
+      "mem_stats": {
+        "total_elements": 512,
+        "ram_cache_size": 256,
+        "ram_cache_max": 256,
+        "total_accesses": 10874624,
+        "ram_hit_rate": 0.9055418375844535,
+        "disk_hit_rate": 0.09445816241554651,
+        "avg_retrieval_ms": 4.541336997111041,
+        "unique_accessed": 511,
+        "coverage": 0.998046875
+      }
+    }
+  ]
+}
