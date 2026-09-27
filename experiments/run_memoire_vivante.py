@@ -17,6 +17,9 @@ simple effet de capacite (comme SimpleMem).
 
     python experiments/run_memoire_vivante.py                        # 3 seeds x 2 conditions
     python experiments/run_memoire_vivante.py --seeds 42 --steps 500 # verification rapide
+
+Sous Linux, passer les chemins des donnees :
+    --data-dir /mnt/HDD/DaBrainRecurrent/data --tokenizer /mnt/HDD/DaBrainRecurrent/data/dabrain_bpe_8k.json
 """
 
 import os
@@ -50,7 +53,7 @@ def main():
     ap.add_argument('--max-eval-segments', type=int, default=None)
     ap.add_argument('--data-dir', default=d.data_dir)
     ap.add_argument('--tokenizer', default=d.tokenizer_path)
-    ap.add_argument('--run-dir', default='D:/Nature/runs')
+    ap.add_argument('--run-dir', default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'runs'))
     args = ap.parse_args()
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
