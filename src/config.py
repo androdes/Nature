@@ -46,6 +46,8 @@ class MemoryConfig:
 @dataclass
 class TrainConfig:
     batch_size: int = 64
+    # Micro-batchs accumules par step optimiseur (batch effectif = batch_size * accum_steps)
+    accum_steps: int = 1
     lr: float = 3e-4
     weight_decay: float = 0.01
     warmup_steps: int = 200
